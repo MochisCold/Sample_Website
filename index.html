@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Led Zeppelin | Team Portfolio</title>
+    
+    <!-- Points to your local styles file -->
+    <link rel="stylesheet" href="styles.css">
+    
+    <style>
+        body {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background-color: #0d0d0d;
+        }
+        .heading-rock {
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            font-weight: 900;
+        }
+        .vinyl-grain {
+            background-image: radial-gradient(rgba(255,255,255,0.03) 1px, transparent 0);
+            background-size: 4px 4px;
+        }
+    </style>
+</head>
+<body class="text-gray-300 antialiased selection:bg-amber-500 selection:text-black">
+
+    <div class="fixed inset-0 pointer-events-none vinyl-grain z-50"></div>
+
+    <!-- Navigation Bar -->
+    <nav class="fixed top-0 left-0 w-full z-40 bg-black/80 backdrop-blur-md border-b border-zinc-800 px-6 py-4">
+        <div class="max-w-7xl mx-auto flex justify-between items-center">
+            <a href="#" class="heading-rock text-xl text-white tracking-widest hover:text-amber-500 transition-colors">LED ZEPPELIN</a>
+            <div class="hidden md:flex space-x-8 text-sm uppercase tracking-wider font-semibold">
+                <a href="#projects" class="hover:text-amber-500 transition-colors">Tracklist</a>
+                <a href="#team" class="hover:text-amber-500 transition-colors">The Band</a>
+                <a href="#contact" class="hover:text-amber-500 transition-colors">Backstage Pass</a>
+            </div>
+            <a href="#contact" class="hidden sm:inline-block bg-amber-500 text-black px-5 py-2 font-bold uppercase text-xs tracking-wider hover:bg-white transition-all transform hover:-translate-y-0.5">Book The Band</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="relative min-h-screen flex items-center justify-center pt-16 overflow-hidden">
+        <div class="absolute w-[500px] h-[500px] bg-amber-500/10 rounded-full blur-[120px] -top-20 -left-20"></div>
+        <div class="absolute w-[600px] h-[600px] bg-red-600/5 rounded-full blur-[150px] bottom-0 right-0"></div>
+
+        <div class="max-w-5xl mx-auto px-6 text-center z-10 relative">
+            <div class="inline-flex items-center space-x-2 border border-zinc-700 bg-zinc-900/60 px-3 py-1 rounded-full text-xs font-semibold tracking-widest text-amber-500 uppercase mb-8">
+                <span>⚡ 4 Musicians. 1 Heavy Sound.</span>
+            </div>
+            <h1 class="heading-rock text-4xl sm:text-6xl md:text-8xl font-black text-white leading-tight uppercase">
+                We Build Digital <br><span class="text-transparent bg-clip-text bg-gradient-to-r from-amber-400 via-amber-600 to-red-500">Masterpieces</span>
+            </h1>
+            <p class="mt-8 text-zinc-400 max-w-2xl mx-auto text-base sm:text-lg font-light leading-relaxed">
+                A multidisciplinary collective breaking boundaries in design, engineering, data architecture, and technical execution. We hit heavy, move fast, and leave an impact.
+            </p>
+            <div class="mt-12 flex flex-col sm:flex-row justify-center items-center gap-4">
+                <a href="#projects" class="w-full sm:w-auto bg-white text-black font-bold uppercase tracking-wider text-sm px-8 py-4 hover:bg-amber-500 transition-all transform hover:-translate-y-1">View the Tracklist</a>
+                <a href="#team" class="w-full sm:w-auto border border-zinc-700 text-white font-bold uppercase tracking-wider text-sm px-8 py-4 hover:bg-zinc-800 transition-all">Meet the Lineup</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Tracklist (Projects) Section -->
+    <section id="projects" class="py-24 bg-zinc-950 border-t border-zinc-900">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="flex flex-col md:flex-row md:items-end justify-between mb-16">
+                <div>
+                    <span class="text-xs font-bold tracking-widest uppercase text-amber-500">Side A & Side B</span>
+                    <h2 class="heading-rock text-3xl md:text-5xl font-bold text-white uppercase mt-2">The Tracklist</h2>
+                </div>
+                <p class="text-zinc-500 text-sm max-w-sm mt-4 md:mt-0 font-light">
+                    A curated selection of our highest-charting application launches, digital infrastructures, and products.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <!-- Track 01 -->
+                <div class="group relative bg-zinc-900 border border-zinc-800 overflow-hidden p-8 flex flex-col justify-between min-h-[350px] transition-all hover:border-amber-500/30">
+                    <div>
+                        <div class="flex justify-between items-start">
+                            <span class="font-mono text-zinc-600 text-sm">TRACK 01 // SIDE A</span>
+                            <span class="text-xs uppercase bg-zinc-800 text-zinc-400 px-2 py-1 tracking-wider font-mono">Fintech SaaS</span>
+                        </div>
+                        <h3 class="text-2xl font-bold text-white mt-6 group-hover:text-amber-400 transition-colors">Stairway Platform</h3>
+                        <p class="text-zinc-400 font-light text-sm mt-4 leading-relaxed">
+                            Built a highly dynamic micro-frontend crypto liquidity trading engine processing over $2M in daily volume with single-digit millisecond latency.
+                        </p>
+                    </div>
+                    <div class="mt-8 flex justify-between items-center">
+                        <span class="text-xs font-mono text-zinc-500">Next.js • Go • AWS</span>
+                    </div>
+                </div>
+
+                <!-- Track 02 -->
+                <div class="group relative bg-zinc-900 border border-zinc-800 overflow-hidden p-8 flex flex-col justify-between min-h-[350px] transition-all hover:border-amber-500/30">
+                    <div>
+                        <div class="flex justify-between items-start">
+                            <span class="font-mono text-zinc-600 text-sm">TRACK 02 // SIDE A</span>
+                            <span class="text-xs uppercase bg-zinc-800 text-zinc-400 px-2 py-1 tracking-wider font-mono">E-Commerce</span>
+                        </div>
+                        <h3 class="text-2xl font-bold text-white mt-6 group-hover:text-amber-400 transition-colors">Kashmir Marketplace</h3>
+                        <p class="text-zinc-400 font-light text-sm mt-4 leading-relaxed">
+                            A completely custom decentralized Web3 storefront integrated with automated smart contracts, real-time inventory hooks, and multi-wallet access layers.
+                        </p>
+                    </div>
+                    <div class="mt-8 flex justify-between items-center">
+                        <span class="text-xs font-mono text-zinc-500">React • Solidity • Node</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section id="team" class="py-24 bg-black">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="text-center max-w-2xl mx-auto mb-20">
+                <span class="text-xs font-bold tracking-widest uppercase text-amber-500">The Power Quad</span>
+                <h2 class="heading-rock text-3xl md:text-5xl font-bold text-white uppercase mt-2">The Lineup</h2>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                <!-- Member 1 -->
+                <div class="bg-zinc-900 border border-zinc-800 p-6 flex flex-col justify-between min-h-[300px]">
+                    <div>
+                        <span class="text-amber-500 text-xs font-mono uppercase tracking-widest block mb-1">🎸 Lead Guitar</span>
+                        <h4 class="text-xl font-bold text-white">Jimmy Page</h4>
+                        <p class="text-zinc-400 font-light text-xs mt-2 leading-relaxed">
+                            Lead Architect & Full-Stack Systems Engineer. Directs technical vision and framework scaling parameters.
+                        </p>
+                    </div>
+                </div>
+                <!-- Member 2 -->
+                <div class="bg-zinc-900 border border-zinc-800 p-6 flex flex-col justify-between min-h-[300px]">
+                    <div>
+                        <span class="text-amber-500 text-xs font-mono uppercase tracking-widest block mb-1">🎤 Lead Vocals</span>
+                        <h4 class="text-xl font-bold text-white">Robert Plant</h4>
+                        <p class="text-zinc-400 font-light text-xs mt-2 leading-relaxed">
+                            Product Visionary & UX Designer. Crafts interactive layouts and user psychology pipelines.
+                        </p>
+                    </div>
+                </div>
+                <!-- Member 3 -->
+                <div class="bg-zinc-900 border border-zinc-800 p-6 flex flex-col justify-between min-h-[300px]">
+                    <div>
+                        <span class="text-amber-500 text-xs font-mono uppercase tracking-widest block mb-1">🎹 Bass / Keys</span>
+                        <h4 class="text-xl font-bold text-white">John Paul Jones</h4>
+                        <p class="text-zinc-400 font-light text-xs mt-2 leading-relaxed">
+                            Data Systems & Cloud Strategy Director. Optimizes schema pipelines and infrastructure nodes.
+                        </p>
+                    </div>
+                </div>
+                <!-- Member 4 -->
+                <div class="bg-zinc-900 border border-zinc-800 p-6 flex flex-col justify-between min-h-[300px]">
+                    <div>
+                        <span class="text-amber-500 text-xs font-mono uppercase tracking-widest block mb-1">🥁 Drums</span>
+                        <h4 class="text-xl font-bold text-white">John Bonham</h4>
+                        <p class="text-zinc-400 font-light text-xs mt-2 leading-relaxed">
+                            Backend &amp; Infrastructure Engineer. Holds the low end together — deploy pipelines, observability, and uptime that never drops a beat.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-24 bg-zinc-950 border-t border-zinc-900">
+        <div class="max-w-4xl mx-auto px-6">
+            <div class="text-center max-w-2xl mx-auto mb-16">
+                <span class="text-xs font-bold tracking-widest uppercase text-amber-500">Backstage Pass</span>
+                <h2 class="heading-rock text-3xl md:text-5xl font-bold text-white uppercase mt-2">Let's Make Some Noise</h2>
+                <p class="text-zinc-400 font-light mt-6 leading-relaxed">
+                    Got a project that needs to hit hard? Send us the setlist and we'll bring the amps.
+                </p>
+            </div>
+
+            <form class="grid grid-cols-1 sm:grid-cols-2 gap-6" onsubmit="return false;">
+                <div class="flex flex-col">
+                    <label for="name" class="form-label">Name</label>
+                    <input id="name" name="name" type="text" placeholder="Your name" class="form-input">
+                </div>
+                <div class="flex flex-col">
+                    <label for="email" class="form-label">Email</label>
+                    <input id="email" name="email" type="email" placeholder="you@company.com" class="form-input">
+                </div>
+                <div class="flex flex-col sm:col-span-2">
+                    <label for="message" class="form-label">The Setlist</label>
+                    <textarea id="message" name="message" rows="5" placeholder="What are we building?" class="form-input"></textarea>
+                </div>
+                <div class="sm:col-span-2">
+                    <button type="submit" class="w-full sm:w-auto bg-amber-500 text-black font-bold uppercase tracking-wider text-sm px-8 py-4 hover:bg-white transition-all transform hover:-translate-y-1">
+                        Send It
+                    </button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="border-t border-zinc-900 bg-black px-6 py-8">
+        <div class="max-w-7xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-4">
+            <span class="heading-rock text-sm text-zinc-500 tracking-widest">LED ZEPPELIN</span>
+            <span class="text-xs font-mono text-zinc-600">&copy; 2026 — Four musicians, one heavy sound.</span>
+        </div>
+    </footer>
+
+</body>
+</html>
