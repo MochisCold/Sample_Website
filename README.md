@@ -6,12 +6,15 @@ It is engineered to run **100% self-contained and offline**, completely independ
 
 ---
 
-## ⚡ The Project Concept
+## ⚡ The Lineup & Line-up Mapping
 Taking inspiration from our legendary namesake, our agency layout maps our 4 modern tech roles to the legendary 4-piece band lineup:
-*   **Jimmy Page (Lead Guitar)** -> Lead Systems Architect & Full-Stack Engineer
-*   **Robert Plant (Lead Vocals)** -> UX Product Visionary & Interaction Designer
-*   **John Paul Jones (Bass/Keys)** -> Cloud Infrastructure & Advanced Data Architect
-*   **John Bonham (Drums)** -> Agile Delivery Lead & Project Operations Manager
+
+| Role | Name |
+| :--- | :--- |
+| **🎸 Lead Guitar** — Lead Architect & Full-Stack Systems Engineer | Mozart Milan |
+| **🎤 Lead Vocals** — Product Visionary & UX Designer | Cydrik Noynay |
+| **🎹 Bass / Keys** — Data Systems & Cloud Strategy Director | Zed Elcarte |
+| **🥁 Drums** — Backend & Infrastructure Engineer | Brent Mascunana |
 
 ---
 
